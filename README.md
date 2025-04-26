@@ -23,6 +23,7 @@ Blaze is a simple and elegant Android wellness application built using **Jetpack
   Save your tasks using Room database so your data stays even when you relaunch the app.
 
 ## 🖼️ Screenshots
+![image](https://github.com/user-attachments/assets/06a7c340-4327-4409-915f-1d298f1be8f1)
 
 <img src="screenshots/tasks.png" width="300" /> <img src="screenshots/health.png" width="300" /> <img src="screenshots/social.png" width="300" />
 

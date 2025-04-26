@@ -1,47 +1,46 @@
-🔥 Blaze – Your All-in-One Wellness Tracker
-Blaze is a beautifully designed Jetpack Compose Android app built for managing personal wellness — from task productivity to health goals and social well-being. It's lightweight, intuitive, and completely offline.
+# 🔥 Blaze — Your All-in-One Wellness Tracker
 
-✨ Features
-To-Do Tasks: Add, complete, or delete personal tasks easily
+Blaze is a simple and elegant Android wellness application built using **Jetpack Compose**. It helps users track their daily tasks, health habits, and social activities — all in one app.
 
-Health Tracking: Log water intake and medicine reminders (coming soon!)
+## ✨ Features
 
-Social Goals: Manage social tasks to maintain mental and emotional well-being
+- ✅ **Task Tracking**  
+  Keep track of your to-dos with easy task creation, completion, and deletion.
 
-Modern UI/UX using Material 3 & Jetpack Compose
+- 💧 **Health Section**  
+  Monitor your daily water intake and medicine reminders (coming soon!).
 
-Local State Memory (WIP: will persist across tabs/screens)
+- 🫂 **Social Section**  
+  Plan and track your social wellness activities, stay connected, and balance your mental health.
 
-Clean Architecture ready for scaling
+- 🧭 **Navigation Bar**  
+  Quickly switch between Tasks, Health, and Social tabs using a responsive bottom navigation bar.
 
-Sections
+- 🎨 **Material You UI**  
+  Smooth and clean UI/UX design using Material 3 and Jetpack Compose.
 
-Tab	Purpose
-Tasks	General productivity & daily to-dos
-Health	Water intake, medicine reminders (coming soon)
-Social	Activities to maintain social connection
-Screenshots
-(Add screenshots or GIFs of the app here)
-You can use tools like adb or Android Studio Emulator to grab clean UI previews.
+- 💾 **Persistent Storage (Coming Soon)**  
+  Save your tasks using Room database so your data stays even when you relaunch the app.
 
-Tech Stack
-Jetpack Compose (UI Toolkit)
+## 🖼️ Screenshots
 
-Material 3
+<img src="screenshots/tasks.png" width="300" /> <img src="screenshots/health.png" width="300" /> <img src="screenshots/social.png" width="300" />
 
-Kotlin
+## 📦 Tech Stack
 
-Android Navigation Component
+- **Jetpack Compose** — Declarative UI toolkit for Android
+- **Material 3** — Modern Material Design components
+- **Kotlin** — Main programming language
+- **Room (soon)** — Local persistence layer for storing tasks
+- **Android Navigation Compose** — For navigating between tabs
 
-Room DB (coming soon)
+## 🚀 How to Run
 
-🐳 Installation
-Clone the repo and open it in Android Studio:
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/blaze.git
+   cd blaze
 
-bash
-Copy
-Edit
-git clone https://github.com/Star-1603/blaze.git
 Make sure you have:
 
 Android Studio Giraffe or newer
@@ -51,6 +50,10 @@ Minimum SDK 24
 Kotlin compiler 1.9+
 
 Gradle 8.0+
+
+Screenshots
+(Add screenshots or GIFs of the app here)
+You can use tools like adb or Android Studio Emulator to grab clean UI previews.
 
 🧠 Roadmap
  Task manager UI
